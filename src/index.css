@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app {
+  background-color: white; /* Default background color */
+  padding: 20px;
+}
+
+.app.black-background {
+  background-color: black; /* Background color when toggled */
+  color: white; /* Text color when background is black */
+}
